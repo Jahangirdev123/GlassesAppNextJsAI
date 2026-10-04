@@ -1,0 +1,32 @@
+<svg width="620" height="270" viewBox="0 0 620 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rawFrame" x1="80" y1="35" x2="560" y2="200">
+      <stop offset="0" stop-color="#E5E7EB"/>
+      <stop offset="0.4" stop-color="#BFC5CE"/>
+      <stop offset="1" stop-color="#6B7280"/>
+    </linearGradient>
+    <linearGradient id="rawLens" x1="140" y1="60" x2="470" y2="175">
+      <stop offset="0" stop-color="#F8FAFC" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#DDE3EA" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#A5B4C2" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="silverShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#374151" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#silverShadow)">
+    <path d="M68 120C68 80.2355 100.236 48 140 48H214C253.764 48 286 80.2355 286 120V120C286 159.765 253.764 192 214 192H140C100.236 192 68 159.765 68 120V120Z" fill="url(#rawLens)" stroke="url(#rawFrame)" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M334 120C334 80.2355 366.236 48 406 48H480C519.764 48 552 80.2355 552 120V120C552 159.765 519.764 192 480 192H406C366.236 192 334 159.765 334 120V120Z" fill="url(#rawLens)" stroke="url(#rawFrame)" stroke-width="14" stroke-linejoin="round"/>
+
+    <path d="M286 118H334" stroke="#7B8594" stroke-width="16" stroke-linecap="round"/>
+    <path d="M112 92C131 72 159 63 188 63" stroke="#F9FAFB" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+    <path d="M432 92C451 72 479 63 508 63" stroke="#F9FAFB" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+
+    <path d="M94 124C82 129 72 137 64 147" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
+    <path d="M526 124C538 129 548 137 556 147" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
+
+    <path d="M154 136C181 153 211 166 240 170" stroke="#C7D0DB" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M380 136C407 153 437 166 466 170" stroke="#C7D0DB" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>
